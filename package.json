@@ -1,0 +1,22 @@
+{
+  "name": "wetter_app_319",
+  "version": "1.0.0",
+  "description": "Weather visualization application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "app",
+    "sae"
+  ],
+  "author": "Janick Perosa",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "yargs": "^15.4.1"
+  }
+}

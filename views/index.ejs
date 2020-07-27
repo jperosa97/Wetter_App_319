@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Finde Dein Wetter</h1>
+    <div class="container">
+<fieldset>
+        <form action="/" method="post">
+            <input type="text" name="city" id="city" placeholder="Enter your city" required class="ghost-input">
+            <input type="submit" value="Get Weather" class="ghost-button">
+        </form>
+        <!--<% if(tempInfo !== null) { %>
+         <p><%= tempInfo %></p>
+        <% } %> -->
+
+        <% if(error !== null) { %>
+            <p><%= error %></p>
+           <% } %>
+
+           <% if( description !== null) { %>
+            <p><%=  description %></p>
+           <% } %>
+
+           <% if( images !== null) { %>
+            <img src="<%=  images %>">
+           <% } %>
+    </fieldset>
+
+    </div>
+    
+</body>
+</html>
