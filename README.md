@@ -8,4 +8,4 @@ Ich brauchte für diese Aufgabe folgende Sprachen:
 - CSS
 - JAVASCRIPT, node.js
 
-die Api holte ich von der https://openweathermap.org/ Seite und implementierte sie in meiner Seite. 
+die Api holte ich von der https://openweathermap.org/ Seite und implementierte sie in meiner Server.js Datei. 
